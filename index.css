@@ -1,0 +1,23 @@
+body
+{
+    background: url(./wallpaperflare.com_wallpaper.jpg);
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    color: snow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.picture img{
+    max-width: 500px;
+    padding-left: 80px;
+    margin: 50px;
+}
+.text{
+    color: snow;
+    margin: 50px;
+}
