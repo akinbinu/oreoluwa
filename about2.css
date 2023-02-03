@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.every{
+    background-image: url(./IMAGES/pexels-louis-2101187.jpg);
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.text{
+    color: #232d60;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.cart{
+    width: 40px;
+    cursor: pointer;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:5px;
+    flex: 1;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    padding: 15px;
+    padding-bottom: 10px;
+    color:#232d60;
+    position: relative;
+    text-decoration: none;
+}
+
+nav i{
+    font-size: 20px ;
+    color: #232d60;
+}
+
+nav i:hover{
+    color:#fff ;
+}
+
+/* .............ABOUT STARTS............................ */
+/* ................ABOUT STARTS......................... */
+
+#about{
+    padding: 50px ;
+    text-align: left;
+    color:#232d60;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about{
+    background-image: url(./IMAGES/IMG_20230125_102722_484-removebg-preview.png);
+    background-size: cover;
+}
+
+.about-image img{
+  width: 400px;
+  height: 350px;
+  border-radius: 20px;
+  margin-right: 90px;
+}
+h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 25px;
+}
+
+ /* .......ABout Ends............ */
+ /* ..........ABOUT Ends......... */
